@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="fr">
+<meta charset="UTF-8">
+<meta name="viewport" content="width device-width, initial-scale=1">
+<head>
+	<title>Contact</title>
+	<style type="text/css">
+	*{box-sizing:border-box;
+	margin:0;
+	padding:0;}
+	h1{
+	text-align:center;
+	color:darkblue;}
+	h2{
+	margin-top:20px;
+	font-size:30px;
+	color:darkblue;
+	border-radius:30px 20px 30px;
+	text-align:center;
+	}
+	h3{
+	margin-top:10px;
+	font-size:30px;
+	color:darkblue;
+	border-radius:30px 20px 30px;
+	text-align:center;
+	}
+	h4{
+	margin-left:20px;
+	margin-top:10px;}
+	header{
+	width:100%;
+	padding:10px;
+	position:fixed;
+	background-color:white;
+	box-shadow: 0px 5px 0px 0px lightcyan;
+	}
+	main{
+	margin-top:50%;}
+	footer {
+	text-decoration:none;
+	text-align:center;
+	background-color: black;
+	color:white;
+	}
+	footer a{
+	font-size:20px;
+	text-align:center;
+	color:white;
+	text-decoration:none;}
+	header img{
+	width:100px;
+	height:80px;}
+	.menu{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	align-items:center;}
+	.nav-bar{
+	display:flex;
+	justify-content:space-evenly;
+	background-color:Gainsboro;}
+	.nav-bar a{
+	text-decoration:none;
+	font-size:20px;
+	background-color:Gainsboro;
+	padding:10px 20px 10px 20px;
+	color:white;
+	border-right:1px solid darkblue;}
+	nav .active{
+	background:DarkCyan;}
+	.input-cnt{
+	display:flex;
+	margin-top:10px;}
+	.input-cnt i{
+	min-width:40px;
+	padding:10px;
+	text-align:center;
+	background:lightblue;
+	border-top-left-radius:20px;
+	border-bottom-left-radius:20px;}
+	.input-cnt input{
+	padding:10px;
+	border:1px solid lightblue;
+	border-top-right-radius:20px;
+	border-bottom-right-radius:20px;}
+	.image img{
+	margin-top:15px;
+	margin-left:50px;
+	border-radius:50px;
+	}
+	.image u{
+	margin-left:15px;
+	text-decoration:none;
+	font-size:25px;
+	color:black;
+	}
+	.image1 img{
+	margin-top:10px;
+	margin-left:50px;
+	border-radius:50%;
+	}
+	.image1 u{
+	margin-left:10px;
+	font-size:20px;
+	text-decoration:none;
+	color:black;
+	}
+	.legend{
+	display:flex;
+	justify-content:space-evenly;
+	align-items:center;
+	font-size:20px;
+	}
+	body{
+	background:#f4f4f4;
+	}
+	header{
+	margin-bottom:100px;}
+	.fields{
+		margin-left:50px;
+		margin-right:50px;
+		}
+	fieldset{
+	border-top:10px solid skyblue;
+	background:#f4f4f4;
+	margin-top:20px;
+	padding:50px;
+	box-shadow:5px 10px 5px 5px white;
+	border-radius: 50px 50px 50px 50px;
+	}
+	#field1{
+	border-top: 10px solid gold;}
+	#field2{
+	border-top: 10px solid indianred;}
+	@media(min-width:500px){
+	.input-cnt i{
+	min-width:10%;}
+	.input-cnt input{
+	min-width:40%;}
+	.nav-bar a{
+	padding:20px 50px 20px 50px;}
+	main{
+	margin-top:30%;}
+	.fields{
+		margin:20%;}}
+</style>
+</head>
+<body>
+	<header>
+		<h1>JST-ELECTRONIC</h1>
+		<div class="menu">
+			<img src="35.jpeg">
+		<hr>
+	<nav>
+		<div class="nav-bar">
+			<a href="index.html"> 🏠Acceuil</a>
+			<a href="produit.html"> 💻Produit</a>
+			<a href="contact.html" class="active"> ☎Contact</a>
+			<a href="about.html"> 🎛About Us</a>
+		</div>
+	</nav>
+		</div>
+<div class="input-cnt">
+	<i class="icon"> 🔍 Search</i>
+	<input type="text" placeholder="Search here...">
+</div>
+</header>
+<hr>
+<main>
+	<div class="fields">
+		<fieldset>	
+			<h2>🧲Rejoignez nous par:</h2>
+	<div class="image">
+		<img src="22.jpg" alt="fb.jpg" 
+			height="50px" width="50px">
+<a href="http://www.facebook.com" target="_facebook">
+	<u>Facebook</u></a><br>
+		<img src="24.jpg" alt="24.jpg"
+			height="50px" width="50px">
+<a href="http://www.email.com" target="_email">
+	<u>email.com</u></a><br>
+		<img src="What.jpeg" alt="24.jpg"
+			height="50px" width="50px">
+<a href="http://www.whattsap.com" target="_Whattsap">
+	<u>Whattsap</u></a><br>
+	</div>
+		</fieldset>
+		<fieldset id="field1">
+<h3>☎Par Contact:</h3>
+	<div class="image1">
+		<img src="K.jpg" alt="K.jpg"
+			height="40px" width="40px">
+<u>+261 38 92 935 62</u><br>
+		<img src="K.jpg" alt="k.jpg"
+			height="40px" width="40px">
+<u>+261 38 93 467 32</u><br>
+		<img src="K.jpg" alt="K.jpg"
+			height="40px" width="40px">
+<u>+261 38 50 054 67</u><br>
+	</div>
+		</fieldset>
+	<div class="field">
+		<fieldset id="field2">
+			<h3>📍Adresse:</h3>
+	<div class="image1">
+		<img src="Adresse1.jpg" alt="Adresse1.jpg"
+			height="40px" width="40px">
+	<u>Andoharanofotsy</u><br>
+		<img src="Adresse1.jpg" alt="K.jpg"
+			height="40px" width="40px">
+	<u>Anjanahary</u><br>
+		<img src="Adresse1.jpg" alt="K.jpg"
+			height="40px" width="40px">
+	<u>Ifarihy Tanjombato</u><br>	 	
+		</fieldset>
+	</div>
+	</div>
+	</div>
+</main>
+<footer>
+	<p>© 2026 JST-PROJET</p><br>
+	<a href="contact.html">Conatct</a>
+	<a href="about.html">About us</a><br>
+	<a href="privacy.html" id="pv">Privacy</a></p>
+</footer>
+</body>
+</html>
+	
